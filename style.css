@@ -1,0 +1,60 @@
+header, nav, footer{
+    background-color: darksalmon;
+}
+
+header{
+    height: 100px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+nav{
+    height: 50px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+footer{
+    height: 50px;
+}
+
+a{
+    height: 30px;
+    width: 100px;
+    background-color: aliceblue;
+    margin-right: 10px;
+}
+
+article{
+    background-color: aqua;
+    text-align: center;
+    width: 70%;
+    padding: 30px;
+}
+
+article section{
+    background-color: aquamarine;
+    height: 80px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.content{
+    display: flex;
+}
+
+aside{
+    background-color: lightgrey;
+    width: 30%;
+    padding: 30px;
+    margin-left: 20px;
+}
+
+aside section{
+    background-color: gainsboro;
+    height: 80px;
+    width: 100%;
+    margin-top: 20px;
+}
